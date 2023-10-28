@@ -227,3 +227,4 @@ if st.button("Get Weather"):
 
 # To run the Streamlit app, use the following command in your terminal:
 # streamlit run weather_app.py
+
