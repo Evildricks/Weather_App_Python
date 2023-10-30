@@ -8,7 +8,9 @@
 ---
 
 # Weather Forecast App
-![Images/Logo.png](Images/Logo.png)
+
+![Copy of logo](https://github.com/HariNithyaRao/Weather_App_Python/assets/73685642/cc76db7c-fe68-45f0-b4c6-3380e10a5722)
+
 
 A simple weather forecast app built for accessing the weather forecast of any city in the world.
 
@@ -55,6 +57,10 @@ This project serves as a simple and effective tool for obtaining weather informa
 
 ---
 ## Have a look 👀
+
+
+https://github.com/HariNithyaRao/Weather_App_Python/assets/73685642/198d2e7f-9e92-422e-9ed0-761549ddd531
+
 
 ---
 ## Installation :inbox_tray:
