@@ -17,14 +17,14 @@ A simple weather forecast app built for accessing the weather forecast of any ci
 ## Table of Contents
 
 - [Features](#features)
-- [How It works](#How It works)
-- [Have a look](#Have a look)
+- [How It works](#how-it-works)
+- [Have a look](#have-a-look)
 - [Installation](#installation)
 
 
 ---
 
-## Features
+## Features :sparkles: 
 
 - Real-time weather data
 - Location-based weather forecasts
@@ -34,7 +34,7 @@ A simple weather forecast app built for accessing the weather forecast of any ci
 
 ---
 
-## How It works
+## How It works 🛠️
 
 This Weather Forecast app is built using Streamlit, Python, and the OpenWeatherMap API. It provides real-time weather data for user-specified cities.
 
@@ -54,10 +54,10 @@ This project serves as a simple and effective tool for obtaining weather informa
 
 
 ---
-## Have a look
+## Have a look 👀
 
 ---
-## Installation
+## Installation :inbox_tray:
 
 Here's the step-by-step instructions on how to install the project:
 
