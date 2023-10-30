@@ -1,8 +1,28 @@
+![img.png](img.png)
 
-![Logo]https://www.clipartmax.com/png/small/237-2372176_weather-app-weather-app-logo.png
+![](https://img.shields.io/badge/Open_Source-Project-orange)
+![](https://img.shields.io/badge/Hacktoberfest_Contribution-2023-yellow)
+[![Python Version](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/downloads/)
+[![OpenWeatherMap API](https://img.shields.io/badge/OpenWeatherMap-API-brightgreen)](https://openweathermap.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-0.90.1-red)](https://www.streamlit.io/)
+---
 
-# Weather_App_Python
-Python based application which uses Tkinter for GUI. It calls the OpenWeatherMap API for the weather details for the current day and for the next 6 days.
+# Weather Forecast App
+![Images/Logo.png](Images/Logo.png)
+
+A simple weather forecast app built for accessing the weather forecast of any city in the world.
+
+---
+
+## Table of Contents
+
+- [Features](#features)
+- [How It works](#How It works)
+- [Have a look](#Have a look)
+- [Installation](#installation)
+
+
+---
 
 ## Features
 
@@ -12,9 +32,52 @@ Python based application which uses Tkinter for GUI. It calls the OpenWeatherMap
 - Multiple units of measurement (e.g., Celsius, Fahrenheit)
 - Weather history and trends
 
-## 🔗 Links
-Visit the Website:https://github.com/Evildricks/Weather_App_Python
+---
 
+## How It works
+
+This Weather Forecast app is built using Streamlit, Python, and the OpenWeatherMap API. It provides real-time weather data for user-specified cities.
+
+1. **Enter City Name:** Users input the name of the city for which they want to check the weather forecast.
+
+2. The app utilizes the Geopy library to geolocate the city and determine its latitude and longitude coordinates.
+
+3. **Real-Time Data:** It then uses the OpenWeatherMap API to fetch the current weather conditions and 7-day weather forecast for that location.
+
+4. The app displays the current temperature, humidity, pressure, wind speed, and weather description, along with an icon representing the weather condition.
+
+5. **7-Day Forecast:** Users can also view a 7-day forecast, with icons, temperatures, and weather descriptions for each day.
+
+6. **Interactive UI:** The app determines the local time and timezone of the selected city and displays it. Additionally, it displays the country in which the city is located.
+
+This project serves as a simple and effective tool for obtaining weather information for various cities worldwide.
+
+
+---
+## Have a look
+
+---
+## Installation
+
+Here's the step-by-step instructions on how to install the project:
+
+```bash
+# First, fork the repository to your account (using the button on the top-right corner)
+
+# Clone the repository to your local machine
+git clone https://github.com/your-username/your-repo.git
+
+# Change directory to project folder
+cd your-repo
+
+# Install dependencies provided in requirements.txt
+pip install -r requirements.txt
+
+# Run the app
+streamlit run main.py
+
+# And there you have it! project will be running on http://localhost:8501 by default
+```
 
 
 
